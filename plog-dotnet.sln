@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plog-dotnet", "plog-dotnet\plog-dotnet.csproj", "{71FC2E67-CF9E-44E1-B4B1-5028C3933268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71FC2E67-CF9E-44E1-B4B1-5028C3933268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FC2E67-CF9E-44E1-B4B1-5028C3933268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FC2E67-CF9E-44E1-B4B1-5028C3933268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FC2E67-CF9E-44E1-B4B1-5028C3933268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45B6995C-77CC-4E9D-A01C-CF23D1D20454}
+	EndGlobalSection
+EndGlobal
