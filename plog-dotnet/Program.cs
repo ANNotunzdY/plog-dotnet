@@ -11,6 +11,17 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+// Configure メソッドでアプリケーションの設定を行います
+app.Use((HttpContext context, Func<Task> next) =>
+{
+    // カスタムヘッダーを追加
+    context.Response.Headers.Append("X-PLog-API-Version", "1.0");
+    context.Response.Headers.Append("Access-Control-Allow-Origin", "*");
+
+    // 次のミドルウェアに処理を渡します
+    return next();
+});
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
